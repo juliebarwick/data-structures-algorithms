@@ -35,7 +35,6 @@ class HashMap {
     let foundMatch = false;
     for (let i = 0; i < this.keyMap[index].length; i++) {
       if (this.keyMap[index][i][0] === key) {
-        console.log("true");
         this.keyMap[index][i][1] = value;
         foundMatch = true;
         break;
